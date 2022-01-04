@@ -12,7 +12,7 @@ import androidx.constraintlayout.widget.ConstraintSet
 
 
 class MainActivity : AppCompatActivity() {
-
+    //뷰 바인딩
     private val binding by lazy { ActivityMainBinding.inflate(layoutInflater)}
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
         //inflate(xml파일, 만든 뷰를 넣을 부모 layout/container, 바로 inflate 할지의 여부)
         val inflate = inflater1.inflate(R.layout.sub1, container, true)
 
-        val set = ConstraintSet()
 
 
 

@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         //인플레이트
         //inflate(xml파일, 만든 뷰를 넣을 부모 layout/container, 바로 inflate 할지의 여부)
-        val inflate = inflater1.inflate(R.layout.sub1, container, true)
+        inflater1.inflate(R.layout.sub1, container, true)
 
 
 

@@ -19,7 +19,7 @@ class ToolbarFragment : Fragment(), SeekBar.OnSeekBarChangeListener {
 
 
 
-    var activityCallback : ToolbarFragment.ToolbarListener? = null
+    var activityCallback : ToolbarListener? = null
 
     interface ToolbarListener {
         fun onButtonClick(fontsize : Int, text : String)

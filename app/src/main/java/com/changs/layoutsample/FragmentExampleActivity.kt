@@ -14,7 +14,7 @@ class FragmentExampleActivity : FragmentActivity(), ToolbarFragment.ToolbarListe
     }
 
     override fun onButtonClick(fontsize: Int, text: String) {
-        val textFragment = supportFragmentManager.findFragmentById(R.id.frameLayout2) as TextFragment
+        val textFragment = supportFragmentManager.findFragmentById(R.id.text_fragment) as TextFragment
         textFragment.changeTextProperties(fontsize, text)
     }
 }

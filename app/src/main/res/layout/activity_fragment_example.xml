@@ -20,7 +20,7 @@
         tools:layout="@layout/fragment_toolbar" />
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView2"
+        android:id="@+id/text_fragment"
         android:name="com.changs.layoutsample.TextFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

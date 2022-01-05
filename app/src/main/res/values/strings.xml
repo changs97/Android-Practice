@@ -3,4 +3,6 @@
     <string name="press_me">Press Me</string>
     <string name="touch_two_status">Touch Two Status</string>
     <string name="touch_one_status">Touch One Status</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
